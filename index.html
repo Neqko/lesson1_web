@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekBrains</title>
+    <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+<div>
+    <button id="toggle-btn">Таймер</button>
+</div>
+
+<form id="datecalc">
+    <h3>Калькулятор дат</h3>
+    <label>
+        <strong>Первая дата:</strong>
+        <input type="date" name="firstDate" />
+    </label>
+    <label>
+        <strong>Вторая дата:</strong>
+        <input type="date" name="secondDate" />
+    </label>
+    <input type="submit">Расчитать промежуток</button>
+    <p id="datecalc__result"></p>
+</form>
+
+<div id="countdown">
+    <h3>До конца распродажи осталось</h3>
+    <div>
+        <p>Дней: <span class="countdown-days">0</span></p>
+        <p>Часов: <span class="countdown-hours">0</span></p>
+        <p>Минут: <span class="countdown-minutes">0</span></p>
+        <p>Секунд: <span class="countdown-seconds">0</span></p>
+    </div>
+    <p id="countdown__result"></p>
+    <div>
+        <button id="countdown-start">Старт</button>&nbsp;&nbsp;&nbsp;<button id="countdown-stop">Стоп</button>
+    </div>
+</div>
+</body>
+</html>
